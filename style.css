@@ -1,0 +1,114 @@
+/* General styles for all containers */
+body{
+    background-color: #007bff;
+}
+.container {
+    /* Add common padding styles for all containers */
+    padding: 15px;
+    box-sizing: border-box;
+    margin: 10px;
+  }
+  
+  /* Styles for the Education Details container */
+  .container-education {
+    /* Add specific padding styles for the Education Details container */
+    padding: 30px;
+    margin: auto;
+    width: 50%;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+    background-color: white;
+    color: #444;
+    border-radius: 4px;
+  }
+  
+  /* Additional styles for specific elements within the Education Details container */
+  .container-education {
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  .container-education h1#h1{
+    font-family: "Roboto Condensed", sans-serif;
+    color: black;
+    font-size: medium;
+    align-items: flex-start;
+  }
+  
+  .container-education form {
+    text-align: center;
+    line-height: 1.42857143;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+    position: relative;
+    background: #fff;
+    border-radius: 4px;
+    /* box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5); */
+    padding: 15px;
+  }
+  
+  .container-education label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #444;
+  }
+  
+  .container-education .g-signin2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+  .container-education .abcRioButtonContentWrapper {
+    display: flex;
+    justify-content: center;
+  }
+  /* .g-signin2{
+    align-items: center;
+    align-content: center;
+  }
+  .abcRioButtonContentWrapper{
+    align-items: center;
+
+  } */
+
+  .container-education input,
+  .container-education select {
+    width: 70%;
+    height: 30px;
+    padding: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .container-education button.sub-btn {
+    width: 100%;
+    height: 40px;
+    background-color: #17a2b8;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* .container-education button.sub-btn:hover {
+    background-color:white;
+  } */
+  /* 0056b3 */
+  
+  /* Styles for specific elements within the form
+  .container-education form input[type="text"],
+  .container-education form input[type="password"],
+  .container-education form input[type="tel"],
+  .container-education form select {
+    /* Placeholder styles */
+    /* color: #444;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 10px;
+  } */
+   /* */ 
