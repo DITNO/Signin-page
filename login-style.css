@@ -1,0 +1,58 @@
+/* login-style.css */
+
+/* Additional styles for the login page */
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Custom styles for the email section */
+
+.container:nth-child(2) {
+    margin-top: 40px;
+}
+
+.container:nth-child(2) h1 {
+    margin-bottom: 20px;
+}
+
+.container:nth-child(2) input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.container:nth-child(2) button {
+    background-color: #007bff;
+}
